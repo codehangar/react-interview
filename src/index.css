@@ -1,0 +1,33 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  user-select: none;
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #552299 0%, #222244 100%);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.content > div:nth-child(1) {
+  background: linear-gradient(135deg, #ff0099 0%, #9966ff 100%);
+}
+.content > div:nth-child(2) {
+  background: linear-gradient(135deg, #0066ff 0%, #009966 100%);
+}
+.content > div:nth-child(3) {
+  background: linear-gradient(135deg, #ff0022 0%, #ff6600 100%);
+}
+.content > div:nth-child(4) {
+  background: linear-gradient(135deg, #ffff33 0%, #ff6600 100%);
+}
